@@ -31,7 +31,7 @@ class GenerateTrackingNumberActionTest extends TestCase
             'tracking_number' => 'PL100000000000000DOM'
         ]);
 
-        // Mock our "GenerateRandomDigitsAction" class to return two sequential values, one will
+        // Mock our "RandomDigitsHelper" class to return two sequential values, one will
         // match the item we just created and the second won't, thus the second one should be
         // used in the generating the tracking number
         $this->mock(RandomDigitsHelper::class, function (MockInterface $mock) {
