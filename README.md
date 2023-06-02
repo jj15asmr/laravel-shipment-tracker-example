@@ -1,5 +1,7 @@
 # 📦 Laravel Shipment Tracker Example
 
+![](https://github.com/jj15asmr/laravel-shipment-tracker-example/assets/48543796/49af2391-93d3-4899-8567-19efccf702e2)
+
 This is a simple implementation of a shipment/item tracker, similar to the ones provided by USPS, FedEx, UPS, etc. I started creating it as a little "practice project" over this past Memorial Day weekend.
 
 As the name suggests, it's built with Laravel (v10.12.0) as well as Livewire. Bootstrap 5 is used for the design.
