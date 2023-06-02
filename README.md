@@ -36,7 +36,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) 
     php artisan migrate --seed
     ```
 
-    Your database should now be filled with the required tables and 12 items/shipments with up to 12 tracking events (if their status is other than "In System").
+    Your database should now be filled with the required tables and 6 items/shipments with up to 12 tracking events (if their status is other than "In System").
 
 4. Lastly, ensure that the ``APP_URL`` and ``ASSET_URL`` keys in the ``.env`` file are correct for your case and then run the below command to host the project locally on your machine:
     ```bash
