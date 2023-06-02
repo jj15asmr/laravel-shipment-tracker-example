@@ -1,0 +1,162 @@
+:root {
+    --pl-red: #c22712;
+    --pl-green: #23923c;
+}
+
+/*---------- BASIC OVERRIDES ----------*/
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/*---------- BOOTSTRAP OVERRIDES ----------*/
+
+/* NAVBAR */
+
+.nav-link {
+    color: #000;
+    font-size: 1.125rem;
+}
+
+/* BUTTONS */
+
+.btn {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--pl-green);
+    border-color: var(--pl-green);
+}
+  
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #208336!important;
+    border-color: #208336!important;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #208336;
+    border-color: #208336;
+}
+
+.badge.bg-primary {
+    background-color: var(--pl-green)!important;
+}
+
+/* FORMS AND INPUTS */
+
+form .form-control:focus{
+    border-color: var(--pl-green);
+    box-shadow: none;
+}
+
+/*---------- CUSTOM STYLES ----------*/
+
+.track-item-heading {
+    color: var(--pl-red);
+    font-weight: 600;
+    text-align: center;
+}
+
+.track-item-heading i {
+    font-size: 1.688rem;
+}
+
+.track-item-subheading {
+    font-size: 1.063rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* TRACKING PROGRESS */
+/* Modified from: https://bbbootstrap.com/snippets/order-tracking-template-all-details-34023037 */
+
+.tracking-progress-wrapper {
+    position: relative;
+    background-color: #ddd;
+    height: 7px;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 80px; /* Add extra 20px to compensate for text */
+}
+
+.tracking-progress-wrapper:first-child {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.tracking-progress-wrapper:last-child {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.tracking-progress-wrapper .step {
+    flex-grow: 1;
+    width: 25%;
+    margin-top: -18px;
+    text-align: center;
+    position: relative;
+}
+
+.tracking-progress-wrapper .step:first-child::before {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.tracking-progress-wrapper .step:last-child::before {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.tracking-progress-wrapper .step.active::before {
+    background-color: var(--pl-red);
+}
+
+.tracking-progress-wrapper .step.active.delivered::before {
+    background-color: var(--pl-green);
+}
+
+.tracking-progress-wrapper .step::before {
+    height: 7px;
+    position: absolute;
+    content: '';
+    width: 100%;
+    left: 0;
+    top: 18px
+}
+
+.tracking-progress-wrapper .step.active .icon {
+    background-color: #af2310;
+    color: #fff
+}
+
+.tracking-progress-wrapper .step.active.delivered .icon {
+    background-color: #208336;
+    color: #fff
+}
+
+.tracking-progress-wrapper .icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    border-radius: 100%;
+    background: #ddd
+}
+
+.tracking-progress-wrapper .step.active .text {
+    color: #000
+}
+
+.tracking-progress-wrapper .step.active.current .text {
+    font-weight: bold;
+    color: #000
+}
+
+.tracking-progress-wrapper .text {
+    display: block;
+    margin-top: 7px
+}
