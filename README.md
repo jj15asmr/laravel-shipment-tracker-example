@@ -1,6 +1,6 @@
 # 📦 Laravel Shipment Tracker Example
 
-![](https://github.com/jj15asmr/laravel-shipment-tracker-example/assets/48543796/49af2391-93d3-4899-8567-19efccf702e2)
+![](https://github.com/jj15asmr/laravel-shipment-tracker-example/blob/1eba88a4a07b5e8d53db06775a2f362697639b80/github-banner.png)
 
 This is a simple implementation of a shipment/item tracker, similar to the ones provided by USPS, FedEx, UPS, etc. I started creating it as a little "practice project" over this past Memorial Day weekend.
 
