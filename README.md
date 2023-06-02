@@ -8,7 +8,7 @@ As the name suggests, it's built with Laravel (v10.12.0) as well as Livewire. Bo
 
 It provides a single route *(there is no admin panel or the like)* to a full-page Livewire component where you are able to enter the tracking number of an item **and...**
 
-* View it's current status (Picked Up, In Transit, Dispatched, or Delivered) on a nice-looking progress bar. An item can also have the status of "In System" (meaning that the item isn't yet in the possesion of the courier service) which will show an alert instead.
+* View it's current status (Picked Up, In Transit, Dispatched, or Delivered) on a nice-looking progress bar. An item can also have the status of "In System" (meaning that the item isn't yet in the possession of the courier service) which will show an alert instead.
 
 * View the details of the sender and receiver as well as the item's details (ship date, shipment type, weight).
 
