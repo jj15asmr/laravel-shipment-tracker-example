@@ -50,7 +50,7 @@
 
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/jj15asmr">
+                    <a class="nav-link" href="https://github.com/jj15asmr/laravel-shipment-tracker-example">
                         {{-- Small Devices --}}
                         <span class="d-inline-block d-md-none"><i class="fa-brands fa-github"></i></span>
 
