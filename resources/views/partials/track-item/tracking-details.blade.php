@@ -41,7 +41,7 @@
                     <span class="badge rounded-pill bg-primary">{{ str($item->shipment_type->value)->upper() }}</span>
                 </div>
     
-                <!-- Weight -->
+                {{-- Weight --}}
                 <div class="col text-end">
                     <p class="fw-bold mb-1">Weight:</p>
                     <p class="mb-0 text-muted">{{ $item->weight['pounds'] }} lbs. {{ $item->weight['ounces'] }} oz.</p>
