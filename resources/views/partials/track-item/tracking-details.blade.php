@@ -58,7 +58,7 @@
                         @forelse ($item->events as $event)
                             <tr wire:key="item-tracking-event-{{ $event->id }}">
                                 {{-- Date & Time --}}
-                                <td scope="row" width="25%">{{ $event->occurred_at->format('n/j/Y - g:ha') }}</td>
+                                <td scope="row" width="25%">{{ $event->occurred_at->format('n/j/Y - g:ia') }}</td>
     
                                 {{-- Location --}}
                                 <td width="35%">
